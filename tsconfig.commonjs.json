@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.es2015.json",
+  "compilerOptions": {
+    "outDir": "out-commonjs",
+    "module": "commonjs"
+  },
+  "angularCompilerOptions": {
+    "genDir": "./out-commonjs/",
+    "entryModule": "app/app.module#AppModule"
+  }
+}
